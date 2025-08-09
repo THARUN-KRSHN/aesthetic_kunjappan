@@ -1,0 +1,1 @@
+export function convertToOpposite(userPrompt: string): string; 

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f1e1; /* muted cream */
+  --foreground: #1d1510; /* darker wooden brown for readability */
+  --accent-gold: #c6a664;
+  --accent-green: #6b8f71; /* faded green */
+  --accent-red: #a24d4d; /* faded red */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-malayalam), "Comic Sans MS", "Comic Sans", system-ui, -apple-system, Segoe UI,
+    Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/***** Vintage helpers *****/
+.vintage-frame {
+  border: 8px solid var(--accent-gold);
+  box-shadow: 0 0 0 4px #8b6b3e inset, 0 10px 20px rgba(0,0,0,0.15);
+  border-radius: 12px;
+}
+
+.wood-texture {
+  background: linear-gradient(135deg, #e6dbc0 0%, #e0d3b3 50%, #d9c9a2 100%);
+}
