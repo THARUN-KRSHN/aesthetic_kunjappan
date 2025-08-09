@@ -1,10 +1,11 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 
 export function PosterDisplay() {
   const [image, setImage] = useState<string | null>(null);
   const [roast, setRoast] = useState<string | null>(null);
+  const boxRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const handler = (e: any) => {
@@ -35,12 +36,19 @@ export function PosterDisplay() {
   if (!image) return null;
 
   return (
-    <section className="py-16 sm:py-24">
+    <section className="py-16 sm:py-24 paper-texture">
       <div className="max-w-4xl mx-auto px-6">
-        <div className="vintage-frame bg-white/70 p-4 sm:p-6">
+        <div className="vintage-frame bg-white/70 p-4 sm:p-6 floating-window" ref={boxRef}>
           <div className="flex flex-col items-center">
             <div className="relative w-full max-w-[700px]">
-              <img src={image} alt="Generated poster" className="w-full h-auto rounded-md" />
+              <motion.img
+                src={image}
+                alt="Generated poster"
+                className="w-full h-auto rounded-md"
+                initial={{ opacity: 0, scale: 0.98 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6 }}
+              />
               {roast && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-white/95 border border-[#3b2a1a] rounded-md px-3 py-2 text-sm font-extrabold text-[#1d1510] shadow-md">
                   {roast}

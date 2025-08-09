@@ -6,7 +6,7 @@ import { PosterDisplay } from "@/components/PosterDisplay";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full overflow-x-hidden">
+    <div className="min-h-screen w-full overflow-x-hidden bg-[url('/window.svg')]">
       <HeroSection />
       <RoastQuotes />
       <PromptBox />

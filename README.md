@@ -1,18 +1,38 @@
-# Aesthetic Kunjappan
+[Aesthetic Kunjappan] 🎯
+Basic Details
+Team Name: [TPRXIJK]
+Team Members
+Team Lead: [Tharun Krishna CU] - [Christ College of Engineering]
+Member 2: [Ruthurag Mohan] - [Christ College of Engineering]
 
-Sarcastic Kerala-rooted poster generator built with Next.js App Router. It behaves like an old Kerala uncle who ignores your request and creates the complete opposite style, with his own genius ideas.
+Project Description
+[Sarcastic Kerala-rooted poster generator built with Next.js App Router. It behaves like an old Kerala uncle who ignores your request and creates the complete opposite style — but with modern, cinematic taste and subtle cultural nods.]
 
-## Tech Stack
-- Next.js (App Router)
+The Problem (that doesn't exist)
+[We’re solving the problem of posters being too accurate and too pretty.
+Aesthetic Kunjappan ensures your request is flipped, roasted, and designed like a 90s uncle’s chaotic masterpiece.
+
+The Solution (that nobody asked for)
+[The Solution (that nobody asked for)
+By taking your idea, flipping it on its head with AI, sprinkling in sarcastic uncle-level roasts, and generating a gloriously wrong poster.
+It’s design… but with maximum disrespect and minimum relevance.k]
+
+Technical Details
+Technologies/Components Used
+For Software:
+
+[- Next.js (App Router)
 - TailwindCSS v4
 - Framer Motion
-- HTML5 Canvas (node-canvas on API route)
 - Fonts: Noto Sans Malayalam + Comic Sans fallback
-- Google Gemini API (optional for base background)
-- Hosting: Vercel
+- Google Gemini API (rewrite + roast)
+- Pollinations AI (image generation)
+- Hosting: Vercel]
+Implementation
+For Software:
 
-## Getting Started
-1. Install dependencies:
+Installation
+[1. Install dependencies:
    ```bash
    npm install
    ```
@@ -25,39 +45,33 @@ Sarcastic Kerala-rooted poster generator built with Next.js App Router. It behav
    ```bash
    npm run dev
    ```
-4. Visit `http://localhost:3000`.
+4. Visit `http://localhost:3000`. ]
 
-### Windows local dev note (canvas)
-The API uses `canvas` at runtime. If local installation fails on Windows, you can still run the UI; the API will work in hosted Linux environments (e.g., Vercel). To install locally, ensure:
-- Node.js 18+
-- Python 3
-- Visual Studio Build Tools (Desktop development with C++)
 
-## Project Structure
-- `app/`
-  - `page.tsx`: Single-page layout composing sections
-  - `api/generatePoster/route.ts`: API for opposite-style generation and canvas overlay
-- `components/`
-  - `HeroSection.tsx`, `RoastQuotes.tsx`, `PromptBox.tsx`, `PosterDisplay.tsx`, `KunjappanMascot.tsx`
-- `lib/`
-  - `oppositeStyle.ts`: style inversion mapping
-  - `roastLines.ts`: roast lines and randomizer
-- `public/assets/`: Kerala-themed stickers (add `coconut.svg`, `ksrtc.svg`, `parotta.svg`, `elephant.svg`, etc.)
+Project Documentation
+For Software:
 
-## How it Works
-1. User enters prompt → POST `/api/generatePoster`.
-2. Backend maps to opposite style, crafts a sarcastic prompt, optionally calls Gemini.
-3. Canvas overlays Kerala chaos: misaligned stickers, gold borders, Malayalam heading, roast speech bubble.
-4. Returns a data URL image and roast text to the frontend.
+Screenshots (Add at least 3)
+![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
 
-## Environment
-- `GEMINI_API_KEY` (optional)
+![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
 
-## Deployment (Vercel)
-- Push to a Git repo and import in Vercel.
-- Ensure `GEMINI_API_KEY` is set in Project → Settings → Environment Variables.
-- API route runs on Node.js runtime.
+![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
 
-## Notes
-- Replace placeholder SVGs in `public/assets` with real Kerala-themed art.
-- For a richer base image, replace the Gemini stub with an actual image generation call when available.
+
+
+Build Photos
+![Components](Add photo of your components here) List out all components shown
+
+![Build](Add photos of build process here) Explain the build steps
+
+![Final](Add photo of final product here) Explain the final build
+
+Project Demo
+Video
+[Add your demo video link here] Explain what the video demonstrates
+
+
+Team Contributions
+[Tharun Krishna CU]: [Developer]
+[Ruthurag Mohan]: [UI Designer]

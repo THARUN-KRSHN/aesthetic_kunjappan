@@ -1,7 +1,7 @@
 const ROASTS = [
-  "Enthokkeyo color kittiyal poyi.",
-  "Festival mode always ON.",
-  "Minimal is for paavam people.",
+  "Ningak ethoke colour a vende makkale",
+  "Eath mood pwoli mood.",
+  "Designinu nalla polish venam, ithu oru panchayath notice pole undu.",
   "Corporate look? I added kathakali because culture.",
   "Logo valiyaakkiyittundu, ippo perfect.",
   "Minimal venda, Pooram pol design venam.",
