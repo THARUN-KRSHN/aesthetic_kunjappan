@@ -52,7 +52,7 @@ Project Documentation
 For Software:
 
 Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name) Add caption explaining what this shows
+![Screenshot1](Screenshot 2025-08-09 154856.png) Add caption explaining what this shows
 
 ![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
 
