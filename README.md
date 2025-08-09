@@ -52,24 +52,17 @@ Project Documentation
 For Software:
 
 Screenshots (Add at least 3)
-![Screenshot1](Screenshot 2025-08-09 154856.png) Add caption explaining what this shows
+![Screenshot1](img1.png) 
 
-![Screenshot2](Add screenshot 2 here with proper name) Add caption explaining what this shows
+![Screenshot2](img2.png) 
 
-![Screenshot3](Add screenshot 3 here with proper name) Add caption explaining what this shows
+![Screenshot3](img4.png)
 
 
-
-Build Photos
-![Components](Add photo of your components here) List out all components shown
-
-![Build](Add photos of build process here) Explain the build steps
-
-![Final](Add photo of final product here) Explain the final build
 
 Project Demo
 Video
-[Add your demo video link here] Explain what the video demonstrates
+[https://drive.google.com/file/d/1h1ePhlq288Y-dXeVmaD7IuH8RyaNuszl/view?usp=sharing]
 
 
 Team Contributions
